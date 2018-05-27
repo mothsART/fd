@@ -1,0 +1,11 @@
+target/release/fd          usr/bin
+
+debian/fd.bash             usr/share/bash-completion/completions
+debian/fd.fish             usr/share/fish/completions
+debian/_fd                 usr/share/zsh/vendor-completions
+
+README.md                  usr/share/doc/fd
+doc/fd.1                   usr/share/man/man1
+
+LICENSE-MIT                usr/share/doc/fd
+LICENSE-APACHE            usr/share/doc/fd
