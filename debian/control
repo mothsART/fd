@@ -1,0 +1,22 @@
+Source: fd
+Section: utils
+Priority: optional
+Maintainer: Jérémie Ferry <jerem.ferry@gmail.com>
+Build-Depends:
+  debhelper (>=9),
+  cargo,
+  quilt
+Standards-Version: 4.1.1
+
+Package: fd
+Version: 7.0.0
+Section: utils
+Priority: optional
+Maintainer: Jérémie Ferry <jerem.ferry@gmail.com>
+Architecture: any
+Pre-Depends: dpkg (>= 1.17.14)
+Depends: ${shlib:Depends}
+Description: Simple, fast and user-friendly alternative to find
+ While fd does not seek to mirror all of find's powerful functionality, it
+ provides sensible (opinionated) defaults for 80% of the use cases.
+
